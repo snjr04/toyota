@@ -1,0 +1,21 @@
+.banner{
+  &__img{
+    display: flex;
+    justify-content: center;
+
+  }
+  &__info{
+    background:url("https://scene7.toyota.eu/is/image/toyotaeurope/cam0001a_21-2:Medium-Landscape?ts=0&resMode=sharp2&op_usm=1.75,0.3,2,0") center/cover no-repeat;
+    padding: 100px 0 141px 121px;
+    height: 500px;
+  }
+  &__title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 105.3%;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #ffff;
+  }
+
+}

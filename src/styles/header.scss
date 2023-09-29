@@ -1,0 +1,88 @@
+.header{
+  &__top{
+    background: black;
+    padding: 20px 0;
+    &-glass{
+      position: absolute;
+      top: 26px;
+      left: 441px;
+    }
+    &-icon{
+      position: absolute;
+      top:15px;
+      left:20px;
+    }
+    &-field{
+      padding: 3px 0;
+      background: transparent;
+      border: 1px solid rgb(96, 97, 96);
+      outline: none;
+      color: #fff;
+    }
+    &-nav{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    &-menu{
+      display: flex;
+      column-gap: 40px;
+      align-items: center;
+    }
+    &-link{
+      font-size: 14px;
+      color: #FFFFFF;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      span{
+        margin-right: 11px;
+        font-size: 20px;
+      }
+    }
+
+  }
+  &__center{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &-search{
+      display: flex;
+      align-content: center;
+    }
+    &-field{
+      align-content: center;
+      width: 100%;
+      border: 1px solid #E6E6E6;
+      padding: 10px 10px;
+      outline: none;
+      background: transparent;
+      color: #FFFFFF;
+    }
+    &-icons{
+      display: flex;
+      align-items: center;
+      column-gap: 30px;
+    }
+    &-icon{
+      color: black;
+      font-size: 25px;
+    }
+  }
+  &__bot{
+    display: none;
+    column-gap: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding-top: 40px;
+    &-link{
+      display: flex;
+      align-items: center;
+      column-gap: 10px;
+      font-weight: 400;
+      font-size: 16px;
+      color: black;
+    }
+  }
+}

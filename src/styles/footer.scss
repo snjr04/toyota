@@ -1,0 +1,26 @@
+.footer{
+  background: #000;
+  padding: 70px 0 20px;
+  &__nav{
+    display: flex;
+    justify-content: space-between;
+  }
+  &__list{
+    display: flex;
+    column-gap: 10px;
+    &-social{
+      display: flex;
+      color: rgb(50, 100, 255);
+    }
+  }
+  &__menu{
+    display: block;
+    row-gap: 10px;
+    &-nav{
+      display: block;
+      padding-bottom: 10px;
+      font-size: 20px;
+      color: #FFFFFF;
+    }
+  }
+}

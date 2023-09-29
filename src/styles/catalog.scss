@@ -1,0 +1,27 @@
+.catalog{
+  padding: 30px 0 102px;
+  &__row{
+    display: flex;
+    column-gap: 30px;
+  }
+  &__aside{
+    &-menu{
+      display: flex;
+      row-gap: 10px;
+      margin: 20px 0 50px;
+    }
+    &-price{
+      padding: 7px 16px;
+      background: #F8F8F8;
+      border-radius: 3px;
+      font-size: 13px;
+      color: #414141;
+    }
+  }
+  &__content{
+    width: 75%;
+    .card{
+      width: calc(33.33333% - 20px);
+    }
+  }
+}
